@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		637757381FB8B3B2001C9030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637757371FB8B3B2001C9030 /* AppDelegate.swift */; };
+		6377573F1FB8B3B2001C9030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6377573E1FB8B3B2001C9030 /* Assets.xcassets */; };
+		6377574D1FB8B3B3001C9030 /* Book_dentalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6377574C1FB8B3B3001C9030 /* Book_dentalTests.swift */; };
+		637757581FB8B3B3001C9030 /* Book_dentalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637757571FB8B3B3001C9030 /* Book_dentalUITests.swift */; };
+		637757671FB8B42F001C9030 /* AddappointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637757651FB8B42F001C9030 /* AddappointmentViewController.swift */; };
+		637757681FB8B42F001C9030 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637757661FB8B42F001C9030 /* ViewController.swift */; };
+		6377576E1FB8B466001C9030 /* UIView+property .m in Sources */ = {isa = PBXBuildFile; fileRef = 6377576D1FB8B466001C9030 /* UIView+property .m */; };
+		637757811FB8B496001C9030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6377577F1FB8B496001C9030 /* LaunchScreen.storyboard */; };
+		637757821FB8B496001C9030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637757801FB8B496001C9030 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		637757491FB8B3B3001C9030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6377572C1FB8B3B2001C9030 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637757331FB8B3B2001C9030;
+			remoteInfo = "Book dental";
+		};
+		637757541FB8B3B3001C9030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6377572C1FB8B3B2001C9030 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637757331FB8B3B2001C9030;
+			remoteInfo = "Book dental";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		637757341FB8B3B2001C9030 /* Book dental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book dental.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		637757371FB8B3B2001C9030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6377573E1FB8B3B2001C9030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		637757431FB8B3B2001C9030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637757481FB8B3B3001C9030 /* Book dentalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Book dentalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6377574C1FB8B3B3001C9030 /* Book_dentalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_dentalTests.swift; sourceTree = "<group>"; };
+		6377574E1FB8B3B3001C9030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637757531FB8B3B3001C9030 /* Book dentalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Book dentalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		637757571FB8B3B3001C9030 /* Book_dentalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_dentalUITests.swift; sourceTree = "<group>"; };
+		637757591FB8B3B3001C9030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637757651FB8B42F001C9030 /* AddappointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddappointmentViewController.swift; sourceTree = "<group>"; };
+		637757661FB8B42F001C9030 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6377576B1FB8B466001C9030 /* Book dental-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Book dental-Bridging-Header.h"; sourceTree = "<group>"; };
+		6377576C1FB8B466001C9030 /* UIView+property .h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+property .h"; sourceTree = "<group>"; };
+		6377576D1FB8B466001C9030 /* UIView+property .m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+property .m"; sourceTree = "<group>"; };
+		6377577F1FB8B496001C9030 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		637757801FB8B496001C9030 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637757311FB8B3B2001C9030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637757451FB8B3B3001C9030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637757501FB8B3B3001C9030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6377572B1FB8B3B2001C9030 = {
+			isa = PBXGroup;
+			children = (
+				637757361FB8B3B2001C9030 /* Book dental */,
+				6377574B1FB8B3B3001C9030 /* Book dentalTests */,
+				637757561FB8B3B3001C9030 /* Book dentalUITests */,
+				637757351FB8B3B2001C9030 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		637757351FB8B3B2001C9030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637757341FB8B3B2001C9030 /* Book dental.app */,
+				637757481FB8B3B3001C9030 /* Book dentalTests.xctest */,
+				637757531FB8B3B3001C9030 /* Book dentalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637757361FB8B3B2001C9030 /* Book dental */ = {
+			isa = PBXGroup;
+			children = (
+				637757661FB8B42F001C9030 /* ViewController.swift */,
+				637757651FB8B42F001C9030 /* AddappointmentViewController.swift */,
+				637757371FB8B3B2001C9030 /* AppDelegate.swift */,
+				6377576A1FB8B43C001C9030 /* Image */,
+				637757691FB8B435001C9030 /* Library */,
+				6377573E1FB8B3B2001C9030 /* Assets.xcassets */,
+				6377577F1FB8B496001C9030 /* LaunchScreen.storyboard */,
+				637757801FB8B496001C9030 /* Main.storyboard */,
+				637757431FB8B3B2001C9030 /* Info.plist */,
+			);
+			path = "Book dental";
+			sourceTree = "<group>";
+		};
+		6377574B1FB8B3B3001C9030 /* Book dentalTests */ = {
+			isa = PBXGroup;
+			children = (
+				6377574C1FB8B3B3001C9030 /* Book_dentalTests.swift */,
+				6377574E1FB8B3B3001C9030 /* Info.plist */,
+			);
+			path = "Book dentalTests";
+			sourceTree = "<group>";
+		};
+		637757561FB8B3B3001C9030 /* Book dentalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				637757571FB8B3B3001C9030 /* Book_dentalUITests.swift */,
+				637757591FB8B3B3001C9030 /* Info.plist */,
+			);
+			path = "Book dentalUITests";
+			sourceTree = "<group>";
+		};
+		637757691FB8B435001C9030 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6377576C1FB8B466001C9030 /* UIView+property .h */,
+				6377576D1FB8B466001C9030 /* UIView+property .m */,
+				6377576B1FB8B466001C9030 /* Book dental-Bridging-Header.h */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		6377576A1FB8B43C001C9030 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637757331FB8B3B2001C9030 /* Book dental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6377575C1FB8B3B3001C9030 /* Build configuration list for PBXNativeTarget "Book dental" */;
+			buildPhases = (
+				637757301FB8B3B2001C9030 /* Sources */,
+				637757311FB8B3B2001C9030 /* Frameworks */,
+				637757321FB8B3B2001C9030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Book dental";
+			productName = "Book dental";
+			productReference = 637757341FB8B3B2001C9030 /* Book dental.app */;
+			productType = "com.apple.product-type.application";
+		};
+		637757471FB8B3B3001C9030 /* Book dentalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6377575F1FB8B3B3001C9030 /* Build configuration list for PBXNativeTarget "Book dentalTests" */;
+			buildPhases = (
+				637757441FB8B3B3001C9030 /* Sources */,
+				637757451FB8B3B3001C9030 /* Frameworks */,
+				637757461FB8B3B3001C9030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6377574A1FB8B3B3001C9030 /* PBXTargetDependency */,
+			);
+			name = "Book dentalTests";
+			productName = "Book dentalTests";
+			productReference = 637757481FB8B3B3001C9030 /* Book dentalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		637757521FB8B3B3001C9030 /* Book dentalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637757621FB8B3B3001C9030 /* Build configuration list for PBXNativeTarget "Book dentalUITests" */;
+			buildPhases = (
+				6377574F1FB8B3B3001C9030 /* Sources */,
+				637757501FB8B3B3001C9030 /* Frameworks */,
+				637757511FB8B3B3001C9030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637757551FB8B3B3001C9030 /* PBXTargetDependency */,
+			);
+			name = "Book dentalUITests";
+			productName = "Book dentalUITests";
+			productReference = 637757531FB8B3B3001C9030 /* Book dentalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6377572C1FB8B3B2001C9030 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Devinder Goyal";
+				TargetAttributes = {
+					637757331FB8B3B2001C9030 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SEFCP2Z67L;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					637757471FB8B3B3001C9030 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V8XSLU6QKH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 637757331FB8B3B2001C9030;
+					};
+					637757521FB8B3B3001C9030 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V8XSLU6QKH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 637757331FB8B3B2001C9030;
+					};
+				};
+			};
+			buildConfigurationList = 6377572F1FB8B3B2001C9030 /* Build configuration list for PBXProject "Book dental" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6377572B1FB8B3B2001C9030;
+			productRefGroup = 637757351FB8B3B2001C9030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637757331FB8B3B2001C9030 /* Book dental */,
+				637757471FB8B3B3001C9030 /* Book dentalTests */,
+				637757521FB8B3B3001C9030 /* Book dentalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637757321FB8B3B2001C9030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637757811FB8B496001C9030 /* LaunchScreen.storyboard in Resources */,
+				6377573F1FB8B3B2001C9030 /* Assets.xcassets in Resources */,
+				637757821FB8B496001C9030 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637757461FB8B3B3001C9030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637757511FB8B3B3001C9030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637757301FB8B3B2001C9030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637757681FB8B42F001C9030 /* ViewController.swift in Sources */,
+				637757671FB8B42F001C9030 /* AddappointmentViewController.swift in Sources */,
+				6377576E1FB8B466001C9030 /* UIView+property .m in Sources */,
+				637757381FB8B3B2001C9030 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637757441FB8B3B3001C9030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6377574D1FB8B3B3001C9030 /* Book_dentalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6377574F1FB8B3B3001C9030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637757581FB8B3B3001C9030 /* Book_dentalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6377574A1FB8B3B3001C9030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637757331FB8B3B2001C9030 /* Book dental */;
+			targetProxy = 637757491FB8B3B3001C9030 /* PBXContainerItemProxy */;
+		};
+		637757551FB8B3B3001C9030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637757331FB8B3B2001C9030 /* Book dental */;
+			targetProxy = 637757541FB8B3B3001C9030 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6377575A1FB8B3B3001C9030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6377575B1FB8B3B3001C9030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6377575D1FB8B3B3001C9030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SEFCP2Z67L;
+				INFOPLIST_FILE = "Book dental/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcodedev.BookDentist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Book dental/Book dental-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6377575E1FB8B3B3001C9030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SEFCP2Z67L;
+				INFOPLIST_FILE = "Book dental/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcodedev.BookDentist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Book dental/Book dental-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		637757601FB8B3B3001C9030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V8XSLU6QKH;
+				INFOPLIST_FILE = "Book dentalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "concettolabs.Book-dentalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Book dental.app/Book dental";
+			};
+			name = Debug;
+		};
+		637757611FB8B3B3001C9030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V8XSLU6QKH;
+				INFOPLIST_FILE = "Book dentalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "concettolabs.Book-dentalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Book dental.app/Book dental";
+			};
+			name = Release;
+		};
+		637757631FB8B3B3001C9030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V8XSLU6QKH;
+				INFOPLIST_FILE = "Book dentalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "concettolabs.Book-dentalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Book dental";
+			};
+			name = Debug;
+		};
+		637757641FB8B3B3001C9030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V8XSLU6QKH;
+				INFOPLIST_FILE = "Book dentalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "concettolabs.Book-dentalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Book dental";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6377572F1FB8B3B2001C9030 /* Build configuration list for PBXProject "Book dental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6377575A1FB8B3B3001C9030 /* Debug */,
+				6377575B1FB8B3B3001C9030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6377575C1FB8B3B3001C9030 /* Build configuration list for PBXNativeTarget "Book dental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6377575D1FB8B3B3001C9030 /* Debug */,
+				6377575E1FB8B3B3001C9030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6377575F1FB8B3B3001C9030 /* Build configuration list for PBXNativeTarget "Book dentalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637757601FB8B3B3001C9030 /* Debug */,
+				637757611FB8B3B3001C9030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637757621FB8B3B3001C9030 /* Build configuration list for PBXNativeTarget "Book dentalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637757631FB8B3B3001C9030 /* Debug */,
+				637757641FB8B3B3001C9030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6377572C1FB8B3B2001C9030 /* Project object */;
+}
